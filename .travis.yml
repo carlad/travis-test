@@ -1,4 +1,5 @@
 language: RUBY
+version: "= 1"
 
 rvm:
   - 1.9.3
