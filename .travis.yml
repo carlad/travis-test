@@ -5,3 +5,4 @@ sudo: required
 script:
  sudo apt install rustc
  rustc --version
+ df -h
