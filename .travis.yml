@@ -5,8 +5,8 @@ before_install:
 - df -h
 
 script:
- sudo apt install rustc
- rustc --version
+ - sudo apt install rustc
+ - rustc --version
 
 after_install:
 - df -h
