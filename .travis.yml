@@ -1,4 +1,7 @@
 language: minimal
+sudo: required
+
 
 script:
+ sudo apt install rustc
  rustc --version
