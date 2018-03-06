@@ -1,38 +1,4 @@
-language: RUBY
-version: "= 0"
-
-rvm:
-  - 1.9.3
-  - 2.0.0
-  - 2.2
-
-matrix:
- include:
-  - sudo: required
-    dist: trusty
-  - sudo: required
-    dist: precise
-  - sudo: false
-    dist: trusty
-  - sudo: false
-    dist: precise
-
+language: minimal
 
 script:
- - sleep 3
- 
-# notifications:
-  #webhooks:
-   #urls:
-    # - http://mockbin.org/bin/c5724ab6-e3dc-4b35-b839-b9b3bf2b21df
-  # on_canceled: always # default: always
-  # on_errored: always # default: always
- 
-# notifications:
-#  email:
-#   recipients:
-#    - carladrago@gmail.com
-#   on_success: always
- 
- 
-##################
+ rustc --version
