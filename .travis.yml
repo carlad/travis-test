@@ -1,6 +1,10 @@
 language: ruby
 version: "= 1"
 
+branches:
+ exclude:
+  - no-matir
+
 script:
  - sleep 3
  
