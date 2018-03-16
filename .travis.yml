@@ -1,6 +1,11 @@
 language: RUBY
 version: "= 0"
 
+branches:
+  only:
+  - master
+  - rust
+
 rvm:
   - 1.9.3
   - 2.0.0
