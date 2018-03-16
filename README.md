@@ -1,3 +1,3 @@
 # travis-test
 
-test
+test.
