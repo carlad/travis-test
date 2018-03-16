@@ -1,7 +1,5 @@
-language: RUBY
+language: ruby
 version: "= 1"
-
-
 
 script:
  - sleep 3
