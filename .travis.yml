@@ -2,9 +2,8 @@ language: RUBY
 version: "= 0"
 
 branches:
-  only:
-  - master
-  - rust
+  except:
+  - no-matir
 
 rvm:
   - 1.9.3
